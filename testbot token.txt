@@ -1,5 +1,0 @@
-testbot token
-
-MTIzNTc5ODAxODg5MzE1NjM1Nw.GuZpG9.qG8ifH5QbJ3GdpSbsLQGHm_cW9ljEbyE3Rg1iI
-
-https://discord.com/api/webhooks/1234871294365794414/8_wOcaBfdfwmHmVRvug-jdvXF2DrMnMjcNU30yPRofJ5agqSO5FpeQ1PQlPIWBZkWT2M
