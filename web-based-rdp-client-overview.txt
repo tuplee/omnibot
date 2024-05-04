@@ -1,0 +1,39 @@
+A web-based RDP client is a remote desktop client that runs in a web browser instead of a standalone application. With a web-based RDP client, users can connect to remote desktops and applications using a web browser, without having to install any additional software on their local machine.
+
+There are several open-source and commercial web-based RDP clients available, such as Guacamole, Apache Guacamole, and Myrtille. These web-based RDP clients typically use HTML5, JavaScript, and other web technologies to provide a remote desktop experience that is accessible from any modern web browser.
+
+To integrate a web-based RDP client with your Discord bot, you would need to create a custom web application that embeds the web-based RDP client and provides a user interface for managing RDP sessions and reservations. The web application would interact with your Discord bot using the Discord API to authenticate users, manage reservations, and report the status of RDP sessions.
+
+Here's a high-level overview of how you can create a web-based RDP client that integrates with your Discord bot:
+
+    Choose a web-based RDP client that meets your needs and requirements. You can use an open-source or commercial solution, depending on your preferences.
+    Create a custom web application that embeds the web-based RDP client and provides a user interface for managing RDP sessions and reservations. You can use a web development framework like Flask, Django, or ASP.NET to create the web application.
+    Use the Discord API to authenticate users and manage reservations. You can use the Discord OAuth2 flow to authenticate users and obtain their Discord ID and other information.
+    When a user initiates an RDP session from the web application, the web application can send a request to your Discord bot to create a new reservation and associate it with the user's Discord ID.
+    The web-based RDP client can then initiate the RDP session and periodically report the status of the session to your Discord bot. You can use the web-based RDP client's API or webhooks to monitor the status of the RDP session.
+    Your Discord bot can then use the active_sessions dictionary to track the active RDP sessions and respond to user commands like use and release.
+
+Creating a web-based RDP client that integrates with your Discord bot would require some additional development work, but it would provide a seamless user experience for your users. They would be able to initiate RDP sessions and manage their reservations directly from your Discord bot, without having to install any additional software.
+
+Here's a rough scope and timeline for creating a web-based RDP client that integrates with your Discord bot:
+
+Scope:
+
+    Choose a web-based RDP client that meets your needs and requirements.
+    Create a custom web application that embeds the web-based RDP client and provides a user interface for managing RDP sessions and reservations.
+    Use the Discord API to authenticate users and manage reservations.
+    Implement a system for tracking active RDP sessions and associating them with Discord users.
+    Implement a system for reporting the status of RDP sessions to your Discord bot.
+    Test and debug the web application and Discord bot integration.
+
+Timeline:
+
+    Week 1: Research and choose a web-based RDP client. Set up the development environment for the web application.
+    Week 2-3: Develop the custom web application that embeds the web-based RDP client and provides a user interface for managing RDP sessions and reservations.
+    Week 4: Implement the Discord API integration for user authentication and reservation management.
+    Week 5: Implement the system for tracking active RDP sessions and associating them with Discord users.
+    Week 6: Implement the system for reporting the status of RDP sessions to your Discord bot.
+    Week 7-8: Test and debug the web application and Discord bot integration.
+    Week 9: Deploy the web application and Discord bot integration to a production environment.
+
+This timeline assumes that you have some experience with web development and the Discord API. If you are new to these technologies, you may need to allocate additional time for learning and development. Additionally, this timeline is just an estimate, and the actual timeline may vary depending on the complexity of the project and other factors.
